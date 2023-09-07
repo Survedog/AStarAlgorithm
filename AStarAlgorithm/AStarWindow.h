@@ -80,7 +80,7 @@ class AStarWindow
 	void DrawBlockSignOnSquare(ID2D1RenderTarget* _pRenderTarget, ID2D1SolidColorBrush* pBrush, D2D1_RECT_F rect);
 	void Resize();
 
-	LRESULT CreateResourcesAndData();
+	HRESULT CreateResourcesAndData();
 	void OnDestroy();
 	void OnMouseLButtonClick(LPARAM clickMessageLParam);
 	void OnMouseMiddleButtonClick(LPARAM clickMessageLParam);
